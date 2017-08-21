@@ -1,0 +1,28 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavolima12/movie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.6.x",
+    "angular-animate": "1.6.x",
+    "angular-mocks": "1.6.x",
+    "angular-resource": "1.6.x",
+    "angular-route": "1.6.x",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x"
+  },
+  "bugs": {
+    "url": "https://github.com/gustavolima12/movie/issues"
+  },
+  "homepage": "https://github.com/gustavolima12/movie#readme"
+}
