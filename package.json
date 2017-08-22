@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,11 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "1.6.x",
-    "angular-animate": "1.6.x",
-    "angular-mocks": "1.6.x",
-    "angular-resource": "1.6.x",
-    "angular-route": "1.6.x",
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
     "bootstrap": "3.3.x",
     "jquery": "2.2.x"
   },
