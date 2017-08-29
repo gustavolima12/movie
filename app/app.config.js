@@ -7,5 +7,6 @@ angular
 function config($routeProvider) {
     $routeProvider.when('/movies', {
         template: '<movie-list></movie-list>'
-    });
+    })
+    .otherwise('/movies');
 }
