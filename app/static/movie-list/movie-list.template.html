@@ -1,1 +1,3 @@
-{{$ctrl.movie}}
+<ul ng-repeat="movie in $ctrl.movies">
+    <li ng-if="movie.title.length">{{movie.title}}</li>
+</ul>
